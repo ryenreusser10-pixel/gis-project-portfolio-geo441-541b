@@ -1,7 +1,7 @@
 ```
 # GEO 441/541 Geographic Information Systems
 
-Author: [Your Name]
+Author: Ryen Reusser
 
 ## Overview
 - This repository contains Google Colab Notebooks prepared for GEO 441/541 @Miami University
