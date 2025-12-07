@@ -1,0 +1,169 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ryenreusser10-pixel/gis-project-portfolio-geo441-541b/blob/main/basic-mapping/first-arcgis-mapb.jpynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **GEO 441 Week 1 Assignment: Introduction to ArcGIS Pro GUI**"
+      ],
+      "metadata": {
+        "id": "C0ymCPR5aSHN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Created by Ryen Reusser\n",
+        "\n",
+        "09/02/2025"
+      ],
+      "metadata": {
+        "id": "Pt_OREXFPvkr"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "jqJwTFbQe_Qh"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Get ready to start**\n",
+        "\n",
+        "- Click **`File/Save a copy in Drive`** to save a copy of this notebook to your own Google Drive"
+      ],
+      "metadata": {
+        "id": "CMQN_pgaHVLO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Create my first map using ArcGIS Pro**\n",
+        "\n",
+        "1. **Instructions**\n",
+        "   - Follow mapping instructions from Canvas.\n",
+        "   - Mapping instructions are adapted from *Lab 1: Introduction to ArcGIS Pro* in [GIS Fundamentals Resources page](https://www.gisfundamentals.org/resources)\n",
+        "\n",
+        "2. **Share map**\n",
+        "   - Upload the PNG file exported from ArcGIS Pro to your Google Drive folder for Week 1 assignment\n",
+        "   - Change Share privilege to make this file viewable by anyone with a link\n",
+        "   - Copy the shareable link\n",
+        "\n",
+        "3. **Adjust shareable link**\n",
+        "\n",
+        "   - The default link I get for this PNG file is listed below but it can't be directly used in Notebook to show the picture. We need to make some adjustments.\n",
+        "\n",
+        "   Here is an example of a default Google Drive link:\n",
+        "```\n",
+        "https://drive.google.com/file/d/14dhKvyR1Tn_xSBmyZa9uVcW8wPqK0XwK/view?usp=sharing\n",
+        "```\n",
+        "To adjust the default sharable link:\n",
+        "    - Keep the **`14dhKvyR1Tn_xSBmyZa9uVcW8wPqK0XwK`** part because this is the unique file ID for the picture\n",
+        "    - Delete **`/view?usp=sharing`** at the end of the link\n",
+        "    - Replace **`/file/d/`** with **`/uc?export=view&id=`**\n",
+        "\n",
+        "  The direct link for view from this example would be:\n",
+        "```\n",
+        "https://drive.google.com/uc?export=view&id=14dhKvyR1Tn_xSBmyZa9uVcW8wPqK0XwK\n",
+        "```\n",
+        "\n",
+        "<mark>Insert the links to your map (both the original and the edited) below</mark>:\n",
+        "```\n",
+        "https://drive.google.com/file/d/1COTGbF5TGpExYZ3QgZXQCUl4jLJB4IBG/view?usp=sharing\n",
+        "```\n",
+        "```\n",
+        "https://drive.google.com/uc?export=view&id=1COTGbF5TGpExYZ3QgZXQCUl4jLJB4IBG\n",
+        "```\n",
+        "\n",
+        "4. **Embed the map**\n",
+        "\n",
+        "Now, <mark>embed your map using the adjusted link by replacing the placeholder below</mark>:\n",
+        "\n",
+        "   ![Map](https://drive.google.com/uc?export=view&id=1COTGbF5TGpExYZ3QgZXQCUl4jLJB4IBG) <!-- Example Image Placeholder -->\n"
+      ],
+      "metadata": {
+        "id": "WVs4J1jQbESU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Reflection on my first experience with ArcGIS Pro**\n",
+        "<mark>Complete the a reflection on this process be responding to the following prompts:</mark>\n",
+        "\n",
+        "- Overall, I spent 2 hours to finish creating my first map\n",
+        "- Here is a table showing things that I feel excited and challenging in my first experience working in ArcGIS Pro\n",
+        "\n",
+        "| Things I'm excited about      | Things challenging for me  |\n",
+        "| ----------------------------- | -------------------------- |\n",
+        "| Learning about creating maps     | Reading directions carefully  |\n",
+        "| Using new technology     | Having patience with new programs    |\n",
+        "| Getting faster/better at ArchGIS Pro      | Staying on task   |\n",
+        "\n",
+        "- Here is how I rate my first experience working in ArcGIS Pro:\n",
+        "  - Data import and management\n",
+        "    - Overall, I think I did a great job with the data import and management. This came easily to me, I find it similar to excel. I do think it was difficult to memorize the process but I got better with more practice.\n",
+        "  - Map creation and annotation\n",
+        "    - Map creation was more challenging. I struggled at times to find the symbology page. Creating texts boxes was also tricky. I could get better at the layout part and being able to insert the correct thing.\n",
+        "  - Software interface navigation\n",
+        "    - ArchGIS Pro is new to me and I struggled a little with the new terminology. After going through the fundamentals I feel more familiar with it. I could definitely use more practice and would consider myself a beginner still."
+      ],
+      "metadata": {
+        "id": "i4RTLellbUh7"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Save and share this notebook**\n",
+        "\n",
+        "- Click the \"Share\" button in the top right of the browser, then adjust the settings so that \"Anyone with the link\" is a \"Viewer\"\n",
+        "- <mark>Copy the shareable link and submit it to the Canvas assignment.</mark>"
+      ],
+      "metadata": {
+        "id": "kkgukjDcXsqC"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Reference**\n",
+        "\n",
+        "- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)\n",
+        "- [Insert other references]"
+      ],
+      "metadata": {
+        "id": "fvMbEX89YLeY"
+      }
+    }
+  ]
+}
