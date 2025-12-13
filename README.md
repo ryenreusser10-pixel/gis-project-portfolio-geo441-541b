@@ -16,7 +16,7 @@ Author: Ryen Reusser
 
 ## Raster Data Visualization
 
-- [Maps of Oxford, OH topography](GitHub Link)
+- [Maps of Oxford, OH topography](raster-data-visualization/topography-map.ipynb)
 
 ## Spatial Data Analysis
 - [Maps of John Snow's Cholera Outbreak Invesitation in Soho](GitHub Link)
