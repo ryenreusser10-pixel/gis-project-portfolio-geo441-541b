@@ -12,7 +12,7 @@ Author: Ryen Reusser
 
 ## Vector Data Visualization
 
-- [Map of U.S. county age indexes based on 2000 census data](GitHub Link)
+- [Map of U.S. county age indexes based on 2000 census data](vector-data-visualization/age-index-mapping.ipynb)
 
 ## Raster Data Visualization
 
