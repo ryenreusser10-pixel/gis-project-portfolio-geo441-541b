@@ -8,7 +8,7 @@ Author: Ryen Reusser
 
 ## Basic Mapping
 
-- [First map in ArcGIS Pro](GitHub Link)
+- [First map in ArcGIS Pro](basic-mapping/first-arcgis-mapb.jpynb)
 
 ## Vector Data Visualization
 
